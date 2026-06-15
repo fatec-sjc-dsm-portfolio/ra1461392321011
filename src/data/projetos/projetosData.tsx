@@ -18,7 +18,7 @@ export const projects: Project[] = [
     hardskills: 'FastAPI, Python, React, HTML, CSS, TypeScript, PostgreSQL, Git, Firebase',
     softskills: "As soft skills mais trabalhadas foram comunicação e trabalho em equipe. Com a entrada de novos integrantes no grupo, foi necessário adaptar o ritmo de desenvolvimento e a forma de comunicação para a situação de cada um, garantindo que todos estivessem alinhados quanto ao andamento das atividades e aos objetivos do projeto.",
     technologies: ['FastAPI', 'Python', 'React', 'HTML', 'CSS', 'TypeScript', 'PostgreSQL', 'Git', 'Firebase'],
-    link: 'https://github.com/Sync-FATEC/API-2025.2-6SEM'
+    link: 'https://github.com/Sync-FATEC/API-2026-6SEM'
   },
   {
     title: 'API 5° Semestre',
