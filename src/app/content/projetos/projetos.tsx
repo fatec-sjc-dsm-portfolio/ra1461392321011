@@ -66,7 +66,8 @@ const Projetos: React.FC = () => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   const apiProjects = projects.filter(p => p.category === 'FATEC Prof. Jessen Vidal' && p.title.startsWith('API'));
-  const otherProjects = projects.filter(p => !(p.category === 'FATEC Prof. Jessen Vidal' && p.title.startsWith('API')));
+  const professionalProjects = projects.filter(p => p.category === 'Profissional');
+  const otherProjects = projects.filter(p => !(p.category === 'FATEC Prof. Jessen Vidal' && p.title.startsWith('API')) && p.category !== 'Profissional');
 
   return (
     <section id="projetos" className="mb-12 px-6 sm:px-12 lg:px-24">
@@ -75,6 +76,23 @@ const Projetos: React.FC = () => {
       <h4 className="text-gray-400 text-sm font-semibold uppercase tracking-widest mt-8 mb-4">Aprendizagem por Projetos Integrados (API)</h4>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {apiProjects.map((project, index) => (
+          <div
+            key={index}
+            className="bg-gray-100 rounded-lg overflow-hidden transform transition duration-500 hover:shadow-lg hover:scale-105 cursor-pointer"
+            onClick={() => setSelectedProject(project)}
+          >
+            <img src={project.image} width={600} height={400} alt={project.title} className="w-full h-48 object-cover" />
+            <div className="p-4">
+              <h3 className="text-xl text-gray-800 font-bold mb-1">{project.title}</h3>
+              <p className="text-gray-500 text-sm">{project.category}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <h4 className="text-gray-400 text-sm font-semibold uppercase tracking-widest mt-10 mb-4">Projetos Profissionais</h4>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {professionalProjects.map((project, index) => (
           <div
             key={index}
             className="bg-gray-100 rounded-lg overflow-hidden transform transition duration-500 hover:shadow-lg hover:scale-105 cursor-pointer"

@@ -77,11 +77,11 @@ export const projects: Project[] = [
   {
     title: 'Tracking com DeepSort',
     image: 'https://github.com/Kaue-Francisco/Deepsort_Yolov5/raw/main/media/example.gif',
-    category: 'Pessoal',
-    details: "Projeto de rastreamento de objetos utilizando Deep SORT com detecção via modelo YOLOv5 (COCO). O código detecta e rastreia carros em tempo real a partir de vídeos, demonstrando aplicação prática de Visão Computacional.",
-    contribution: '',
-    hardskills: '',
-    softskills: "",
+    category: 'Profissional',
+    details: "Projeto de rastreamento de objetos (tracking) utilizando o algoritmo Deep SORT combinado com detecção via YOLOv5 (dataset COCO). O código detecta e rastreia carros em tempo real a partir de vídeos, atribuindo um ID único a cada objeto e mantendo esse rastreamento entre os frames, demonstrando uma aplicação prática de Visão Computacional.",
+    contribution: "Este projeto foi desenvolvido como estudo durante meu estágio, no qual eu precisava implementar uma funcionalidade de tracking de objetos na aplicação VisionAI. Na época, o YOLO (usado para detecção) ainda não possuía um algoritmo de rastreamento robusto integrado, e meu chefe já havia sugerido o estudo do Deep SORT, algoritmo que ele próprio já tinha utilizado em projetos anteriores. A partir dessa indicação, estudei a fundo o funcionamento do Deep SORT e implementei este protótipo combinando a detecção do YOLOv5 com o rastreamento do Deep SORT, atribuindo IDs persistentes aos objetos detectados. Esse estudo serviu de base para a implementação da funcionalidade de tracking na aplicação VisionAI no ambiente de trabalho.",
+    hardskills: 'Python, OpenCV, YOLOv5, Deep SORT, Jupyter Notebook, Visão Computacional',
+    softskills: "Este projeto exigiu bastante autoestudo e proatividade, já que recebi apenas uma indicação inicial do algoritmo a ser estudado e precisei pesquisar e entender a fundo seu funcionamento antes de aplicá-lo na prática. Também desenvolvi a habilidade de transformar um estudo teórico em uma prova de conceito funcional, que posteriormente serviu de referência para a implementação da funcionalidade real no ambiente de trabalho.",
     technologies: ['Python', 'JupyterNotebook', 'OpenCV', 'YOLOv5'],
     link: 'https://github.com/Kaue-Francisco/Deepsort_Yolov5.git'
   },
