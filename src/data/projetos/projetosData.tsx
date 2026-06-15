@@ -5,9 +5,21 @@ import API1 from '../../../public/images/pixels.gif';
 import API3 from '../../../public/images/api-3.gif';
 import API5 from '../../../public/images/api-5.gif';
 import API4 from '../../../public/images/api-4.gif';
+import API6 from '../../../public/images/api-6.gif';
 import { Project } from '../interfaces/projetosInterface';
 
 export const projects: Project[] = [
+  {
+    title: 'API 6° Semestre',
+    image: API6.src,
+    category: 'FATEC Prof. Jessen Vidal',
+    details: "No primeiro semestre de 2026 colaborei em um projeto cujo objetivo foi o desenvolvimento de uma plataforma web para análise de aspectos Ambientais, Sociais e de Governança (ASG) de propriedades rurais do Estado de São Paulo. A solução utiliza dados públicos de diferentes fontes oficiais, permitindo o cruzamento de informações geoespaciais para identificar passivos ambientais, como desmatamento, queimadas e interseções com áreas protegidas. Além disso, o sistema possibilita consultas por meio de linguagem natural, retornando respostas claras, visuais e rastreáveis.",
+    contribution: 'Fiquei responsável pelo desenvolvimento das telas de login e de recuperação de senha (esqueci minha senha), além da implementação do botão de agendamento. Também colaborei com a integração do frontend com o backend, consumindo as APIs desenvolvidas em FastAPI, e implementei o tratamento de erros das requisições para garantir uma melhor experiência ao usuário. Durante o desenvolvimento, enfrentei desafios relacionados à validação de dados e ao tratamento das respostas de erro da API, trabalhando em estreita colaboração com a equipe de backend para alinhar os contratos de comunicação entre frontend e backend.',
+    hardskills: 'FastAPI, Python, React, HTML, CSS, TypeScript, PostgreSQL, Git, Firebase',
+    softskills: "As soft skills mais trabalhadas foram comunicação e trabalho em equipe. Com a entrada de novos integrantes no grupo, foi necessário adaptar o ritmo de desenvolvimento e a forma de comunicação para a situação de cada um, garantindo que todos estivessem alinhados quanto ao andamento das atividades e aos objetivos do projeto.",
+    technologies: ['FastAPI', 'Python', 'React', 'HTML', 'CSS', 'TypeScript', 'PostgreSQL', 'Git', 'Firebase'],
+    link: 'https://github.com/Sync-FATEC/API-2025.2-6SEM'
+  },
   {
     title: 'API 5° Semestre',
     image: API5.src,
