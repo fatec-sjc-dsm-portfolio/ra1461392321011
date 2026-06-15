@@ -22,12 +22,12 @@ export default function Sobre() {
             Kauê Francisco é desenvolvedor apaixonado por tecnologia, com mais de 2 anos de experiência explorando
             constantemente novas tecnologias. Atualmente cursando o 6° semestre de Desenvolvimento de Software
             Multiplataforma (DSM) na FATEC Prof. Jessen Vidal. Possui interesse especial em Visão Computacional
-            e Segurança da Informação, e está sempre em busca de novos desafios.
+            e Segurança da Informação, e está sempre em busca de novos desafios. Além disso, meu hobbies são praticar esportes, como corrida, escalada e volei e assistir filmes.
           </p>
           <span className="block text-gray-400 text-lg font-normal mt-2">Desenvolvedor Full Stack</span>
           <div className="mt-6">
             <a
-              href="/curriculo.pdf"
+              href="/ra1461392321011/curriculo.pdf"
               download
               className="bg-purple-500 text-white py-2 px-4 flex items-center justify-center hover:bg-purple-600 transition-colors duration-300"
               style={{ borderRadius: '10px' }}
